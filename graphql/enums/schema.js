@@ -1,0 +1,42 @@
+// enums.js
+
+const Enums = `
+
+enum STATUS {
+DRAFT
+ACTIVE
+DISABLE
+}
+
+enum EMAIL_TYPE {
+TYPE_HOME
+TYPE_WORK
+TYPE_OTHER
+TYPE_CUSTOM
+TYPE_DOMAIN_PROFILE
+TYPE_PROFILE
+}
+
+enum CONTENT_TYPE {
+    CONTENT_TYPE_UNSPECIFIED
+    TEXT_PLAIN
+    TEXT_HTML
+}
+
+enum CURRENCY {
+  CAD
+  CHF
+  EUR
+  JPY
+  USD
+  ZAR
+}
+
+enum PAYMENT_PROVIDER {
+  PAYPAL
+  CREDIT_CARD
+}
+
+`;
+
+export default Enums;
